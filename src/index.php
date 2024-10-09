@@ -1,5 +1,6 @@
 <?php
 
+phpinfo();
 
 $con = mysqli_connect('mysql', "root", "root");
 
