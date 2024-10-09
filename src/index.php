@@ -1,5 +1,6 @@
 <?php
 
 
+$con = mysqli_connect('mysql', "root", "root");
 
-echo 'hello word';
+$con->query('CREATE DATABASE `users`');
